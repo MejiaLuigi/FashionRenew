@@ -2,6 +2,10 @@
 
 $primary: #DA9F5B;
 $secondary: #33211D;
+$blue: #A3D9C9;
+$orange: #F25D07;
+$pink: #D9307F;
+$pink-light: #F2C4DE;
 $light: #FFFBF2;
 $dark: #111111;
 
@@ -51,7 +55,16 @@ h6,
     width: 36px;
     height: 36px;
 }
+// -------------------Edit By Me
+.btn-secondary {
+background-color: #A3D9C9;
+border-color: #A3D9C9;
+}
 
+.h1{
+    color: #A3D9C9;
+}
+// --------------------------
 .btn-sm-square {
     width: 28px;
     height: 28px;
@@ -211,7 +224,7 @@ h6,
     width: 20px;
     height: 20px;
     border-radius: 20px;
-    background: $primary;
+    background: $blue;
     transition: .5s;
 }
 
@@ -235,7 +248,7 @@ h6,
 .page-header,
 .offer,
 .footer {
-    background: linear-gradient(rgba(51, 33, 29, .9), rgba(51, 33, 29, .9)), url(../img/bg.jpg);
+    background: linear-gradient(rgba(131, 76, 131, 0.9), rgba(77, 48, 80, 0.9)), url(../img/bg.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

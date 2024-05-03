@@ -7,12 +7,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #A3D9C9;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #e83e8c;
+  --pink: #D9307F;
   --red: #dc3545;
-  --orange: #fd7e14;
+  --orange: #F25D07;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -545,7 +545,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #D9307F;
   word-wrap: break-word;
 }
 a > code {
@@ -9012,6 +9012,15 @@ h6,
   height: 36px;
 }
 
+.btn-secondary {
+  background-color: #A3D9C9;
+  border-color: #A3D9C9;
+}
+
+.h1 {
+  color: #A3D9C9;
+}
+
 .btn-sm-square {
   width: 28px;
   height: 28px;
@@ -9156,7 +9165,7 @@ h6,
   width: 20px;
   height: 20px;
   border-radius: 20px;
-  background: #DA9F5B;
+  background: #A3D9C9;
   transition: 0.5s;
 }
 
@@ -9180,7 +9189,7 @@ h6,
 .page-header,
 .offer,
 .footer {
-  background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/bg.jpg);
+  background: linear-gradient(rgba(131, 76, 131, 0.9), rgba(77, 48, 80, 0.9)), url(../img/bg.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
