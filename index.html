@@ -42,30 +42,33 @@
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-nav ml-auto p-4">
-                <a href="index.html" class="nav-item nav-link">Inicio</a>
-                <a href="about.html" class="nav-item nav-link">Nosotros</a>
-                <a href="menu.html" class="nav-item nav-link">Tienda</a>
-                <a href="induccion.html" class="nav-item nav-link">Inducción</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Dotación</a>
-                    <div class="dropdown-menu text-capitalize">
-                        <a href="reservation.html" class="dropdown-item">Manual</a>
-                        <a href="testimonial.html" class="dropdown-item active">Normativa</a>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="induccion.html" class="nav-item nav-link">Inducción</a>
+                    <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                    <a href="menu.html" class="nav-item nav-link">Tienda</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Dotación</a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="manualDotacion.html" class="dropdown-item">Manual Dotación</a>
+                            <a href="manualVestuario.html" class="dropdown-item active">Manual Vestuario</a>
+                        </div>
                     </div>
-                </div>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Bienestar</a>
-                    <div class="dropdown-menu text-capitalize">
-                        <a href="reservation.html" class="dropdown-item">Manual</a>
-                        <a href="testimonial.html" class="dropdown-item active">Normativa</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Bienestar</a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="reservation.html" class="dropdown-item">Manual</a>
+                            <a href="testimonial.html" class="dropdown-item active">Normativa</a>
+                        </div>
                     </div>
+                    <a href="contact.html" class="nav-item nav-link">Contactanos</a>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contactanos</a>
             </div>
         </nav>
     </div>
-    <!-- Navbar End -->  <!-- Carousel Start -->
+    <!-- Navbar End --> 
+     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
         <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
             <div class="carousel-inner">
@@ -73,7 +76,7 @@
                     <img class="w-100" src="img/loby.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <h2 class="h1 text-primary font-weight-medium m-0">Renueva Tu Estilo</h2>
-                        <!-- <h2 class="text-white font-weight-medium m-0">¡Renueva El Mundo!</h2> -->
+                        <h3 class="text-white-50 font-weight-medium m-0">¡Renueva El Mundo!</h3>
                         <h1 class="display-1 text-white m-0">FASHION</h1>
                         <h2 class="text-white m-0"> RENEW </h2>
                     </div>
@@ -82,6 +85,7 @@
                     <img class="w-100" src="img/oficina.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <h2 class="h1 text-primary font-weight-medium m-0">Renueva Tu Estilo</h2>
+                        <h3 class="text-white-50 font-weight-medium m-0">¡Renueva El Mundo!</h3>
                         <h1 class="display-1 text-white m-0">FASHION</h1>
                         <h2 class="text-white m-0"> RENEW </h2>
                     </div>
@@ -90,6 +94,7 @@
                     <img class="w-100" src="img/ropero.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <h2 class="h1 text-primary font-weight-medium m-0">Renueva Tu Estilo</h2>
+                        <h3 class="text-white-50 font-weight-medium m-0">¡Renueva El Mundo!</h3>
                         <h1 class="display-1 text-white m-0">FASHION</h1>
                         <h2 class="text-white m-0"> RENEW </h2>
                     </div>
@@ -120,7 +125,7 @@
                             <img class="img-fluid mb-3 mb-sm-0" src="img/convocatoria1.jpeg" alt="" style="height: 200px; width: 200px;">
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-table service-icon"></i>Nueva Oferta</h4>
+                            <h4><i class="fa fa-table service-icon" id="icon"></i>Nueva Oferta</h4>
                             <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
                                 invidunt, dolore tempor diam ipsum takima erat tempor</p>
                         </div>
@@ -132,7 +137,7 @@
                             <img class="img-fluid mb-3 mb-sm-0" src="img/convocatoria2.PNG" alt="" style="height: 200px;width: 200px;">
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-table service-icon"></i>Nueva Oferta</h4>
+                            <h4><i class="fa fa-table service-icon" id="icon"></i>Nueva Oferta</h4>
                             <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
                                 invidunt, dolore tempor diam ipsum takima erat tempor</p>
                         </div>
@@ -144,7 +149,7 @@
                             <img class="img-fluid mb-3 mb-sm-0" src="img/QR.jpg" alt="">
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-table service-icon"></i>Nuestro Aniversario</h4>
+                            <h4><i class="fa fa-table service-icon" id="icon"></i>Nuestro Aniversario</h4>
                             <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
                                 invidunt, dolore tempor diam ipsum takima erat tempor</p>
                         </div>
@@ -172,7 +177,7 @@
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nosotros</h4>
-                <h1 class="display-4 h1">Sirviendo Desde 2023 </h1>
+                <h1 class="display-4 h1">Sirviendo Desde 2009 </h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 py-0 py-lg-5">
@@ -182,7 +187,7 @@
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Fomentar una cultura de trabajo justo.</h5>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Reducir el impacto ambiental de la industria de la moda.</h5>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Asegurar la sostenibilidad y la responsabilidad social</h5>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Leer Más</a>
+                    <a href="about.html" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Leer Más</a>
                 </div>
                 <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -192,7 +197,7 @@
                 <div class="col-lg-4 py-0 py-lg-5">
                     <h1 class="mb-3">Nuestra Visión</h1>
                     <p>Queremos convertirnos antes del 2025, en una organización sostenible y responsable, que promueve la economía circular, la educación ambiental y el consumo responsable, además de contribuir al bienestar social y al desarrollo sostenible.</p>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Leer Más</a>
+                    <a href="about.html" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Leer Más</a>
                 </div>
             </div>
         </div>
@@ -205,15 +210,15 @@
     <div class="container py-5">
         <h1 class="display-3 text-primary mt-3">OFERTAS LABORAL</h1>
         <h1 class="text-white mb-3">Aprovecha Nuestra Convocatoria</h1>
-        <h4 class="text-white font-weight-normal mb-4 pb-3">Trabaja Con Nosotros</h4>
-        <form class="form-inline justify-content-center mb-4">
+        <h4 class="text-white-50 font-weight-normal mb-4 pb-3">Trabaja Con Nosotros</h4>
+        <!-- <form class="form-inline justify-content-center mb-4">
             <div class="input-group">
                 <input type="text" class="form-control p-4" placeholder="Ingresa" style="height: 60px;">
                 <div class="input-group-append">
                     <button class="btn btn-primary font-weight-bold px-4" type="submit">Ingresar</button>
                 </div>
             </div>
-        </form>
+        </form> -->
     </div>
 </div>
 <!-- Offer End -->
