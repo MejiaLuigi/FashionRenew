@@ -1,0 +1,107 @@
+
+.wrapper {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  /* background-color: white; */
+  /* margin: 100px 0; */
+  padding: 10px;
+  /* padding: 80px 0 60px; */
+}
+h2 {
+  font-family: sans-serif;
+  color: #fff;
+}
+.carousel {
+  width: 100%;
+  margin: 0px auto;
+}
+.slick-slide {
+  margin: 15px;
+  position: relative;
+}
+.slick-slide img {
+  width: 100%;
+  border-radius: 15px;
+}
+.slick-slide p {
+  width: 100%;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  padding: 20px 15px;
+  margin: 0;
+  border-radius: 10px;
+  color: white;
+  line-height: 1.5;
+}
+.wrapper .slick-dots li button:before {
+  font-size: 20px;
+  color: black;
+}
+
+.is-control {
+  background: 0;
+  border: 0;
+  padding: 0 10px;
+  z-index: 1;
+  cursor: pointer;
+
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.6);
+
+  transition: all 0.2s linear;
+}
+
+.carouel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+  left: 0;
+  right: 0;
+}
+
+.is-control {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 2px 10px !important;
+  transition: all 0.75s ease 0;
+}
+
+.is-control:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.prev {
+  left: 25px;
+}
+
+.next {
+  right: 25px;
+}
+
+.desc {
+  background: linear-gradient(0deg, #131b25 28%, transparent);
+  transition: all 0.75s ease 0s;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out 0s;
+}
+
+.slick-slide:hover .text {
+  opacity: 1;
+}
